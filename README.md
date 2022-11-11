@@ -1,6 +1,18 @@
+## Important Note
+
+This is a fork of the [Ceedling](http://throwtheswitch.org/) Sublime Text 2 plugin.
+
+Minimal changes have been made to update print statements to Python 3 print functions.
+The package depends on the Sublime Text Rake package available on [GitHub](https://github.com/SublimeText/Rake) and [PackageControl](https://packagecontrol.io/packages/Rake).
+
+This package supports [Ceedling](http://throwtheswitch.org/) prior to version 0.28.1 (released June 2017).
+
+
+
 Description
 ===========
-[Ceedling](http://throwtheswitch.org/) is a set of tools and libraries for testing and building C applications. This package adds support to Sublime Text 3 and 4 for developing Ceedling applications.
+
+[Ceedling](http://throwtheswitch.org/) is a set of tools and libraries for testing and building C applications. This package adds support to Sublime Text 3 for developing Ceedling applications.
 
 Ceedling Installation
 =====================
@@ -21,7 +33,7 @@ git init
 git pull git://github.com/SublimeText/Ceedling.git
 ```
 
-When you launch Sublime Text 3 and 4, it will pick up the contents of this package so that you can consume the goodness that it provides.
+When you launch Sublime Text 3, it will pick up the contents of this package so that you can consume the goodness that it provides.
 
 Features
 ========
