@@ -13,4 +13,6 @@ jobs:
           python-root-list: "tests"
           use-check-manifest: false
           use-pyroma: false
+          use-black: true
+          use-isort: false
           extra-rstcheck-options: "-r"
