@@ -1,8 +1,11 @@
 import functools
 import os
+
 import sublime
 import sublime_plugin
+
 from .CeedlingSettings import CeedlingUserSettings
+
 
 # Taken from:
 # https://github.com/SublimeText/PackageDev/blob/master/plugins/create_package.py#L47

@@ -1,9 +1,9 @@
 import os
 import re
 
-import yaml
 import sublime
 import sublime_plugin
+import yaml
 
 
 def read_ruby_yaml(file):

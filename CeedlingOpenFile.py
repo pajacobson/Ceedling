@@ -1,11 +1,11 @@
+import itertools
 import os
 import re
-import itertools
 
 import sublime_plugin
 
-from .CeedlingSettings import CeedlingProjectSettings
 from . import glob2
+from .CeedlingSettings import CeedlingProjectSettings
 
 
 class CeedlingPathBuilder:

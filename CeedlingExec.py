@@ -1,11 +1,14 @@
-import sys
 import os
+import sys
 
 import sublime
 import sublime_plugin
 
-from .CeedlingSettings import CeedlingProjectSettings
-from .CeedlingSettings import CeedlingUserSettings
+from .CeedlingSettings import (
+    CeedlingProjectSettings,
+    CeedlingUserSettings,
+    read_ruby_yaml,
+)
 
 
 class CeedlingExecCommand(sublime_plugin.WindowCommand):
