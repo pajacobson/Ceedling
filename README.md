@@ -59,13 +59,15 @@ When you launch Sublime Text, it will pick up the contents of these package so t
 1. Open the command palette (Tools > Command Palette) and type `cnp` to narrow down the options.
 1. Select `Ceedling: New Project` or `Ceedling: New Project (Local)`
 1. A new window will open
-1. Enter project folder location in the panel.
-
+1. Enter project folder location in the panel.\
 	For example `~/projects/drsurly` will create a project folder `drsurly` within the `projects` folder.\
 `~` expands to the current user home directory.
-1. Hit return/enter.
+1. Hit return/enter.\
+    The project folder should open in the current window.
 
-The project folder should open in the current window .
+Options for indexing exclusions, project name and path can be accessed by creating a Sublime Text .sublime-project file from `Project » Save Project As..`
+
+Options set in this file can then be modified using `Project » Edit Project`.
 
 #### Customising New Project creation
 The default parent folder for new projects is set to `~` by default.
